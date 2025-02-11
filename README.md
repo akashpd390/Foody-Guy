@@ -10,6 +10,7 @@ Foody Guy is a Flutter app that helps users explore recipes from different cuisi
 - View recipe details, including ingredients and instructions.
 - Save favorite recipes to local storage using Hive.
 - Fetch recipes from Spoonacular API.
+- - On the Recipe Details Page, there is a button that redirects users to YouTube search results for that recipe, allowing them to find relevant cooking videos.
 
 ## Screenshots
 
@@ -61,7 +62,7 @@ The app uses the following dependencies:
 - `hive`: ^2.0.5 - A lightweight local storage solution for storing favorite recipes.
 - `hive_flutter`: ^1.1.0 - Integrates Hive with Flutter.
 - `provider`: ^6.1.2 - State management for the app.
-- `url_launcher`: ^6.0.9 - To open external URLs (e.g., for recipe sources).
+- `url_launcher`: ^6.0.9 - To open external URLs (e.g., Yotube source).
 
 ### Spoonacular API Key
 
